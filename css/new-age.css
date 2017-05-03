@@ -219,13 +219,13 @@ header .device-container .screen img {
   }
 }
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 section h2 {
   font-size: 50px;
 }
 section.download {
-  padding: 150px 0;
+  /*padding: 30px 0;*/
   position: relative;
 }
 section.download h2 {
@@ -253,36 +253,36 @@ section.download .badges .badge-link img {
     font-size: 70px;
   }
 }
-section.features .section-heading {
+section.benefits .section-heading {
   margin-bottom: 100px;
 }
-section.features .section-heading h2 {
+section.benefits .section-heading h2 {
   margin-top: 0;
 }
-section.features .section-heading p {
+section.benefits .section-heading p {
   margin-bottom: 0;
 }
-section.features .device-container,
-section.features .feature-item {
+section.benefits .device-container,
+section.benefits .feature-item {
   max-width: 300px;
   margin: 0 auto;
 }
-section.features .device-container {
+section.benefits .device-container {
   margin-bottom: 100px;
 }
 @media (min-width: 992px) {
-  section.features .device-container {
+  section.benefits .device-container {
     margin-bottom: 0;
   }
 }
-section.features .feature-item {
+section.benefits .feature-item {
   text-align: center;
   margin-bottom: 100px;
 }
-section.features .feature-item h3 {
+section.benefits .feature-item h3 {
   font-size: 30px;
 }
-section.features .feature-item i {
+section.benefits .feature-item i {
   font-size: 80px;
   background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
   background: linear-gradient(to left, #7b4397, #dc2430);
@@ -290,8 +290,8 @@ section.features .feature-item i {
   -webkit-text-fill-color: transparent;
 }
 @media (min-width: 992px) {
-  section.features .device-container,
-  section.features .feature-item {
+  section.benefits .device-container,
+  section.benefits .feature-item {
     max-width: none;
   }
 }
@@ -397,6 +397,13 @@ footer ul li a.active {
   background: -webkit-linear-gradient(#fdcc52, #fdc539);
   background: linear-gradient(#fdcc52, #fdc539);
 }
+
+.bg-features {
+  background: #f2f2f2;
+  background: -webkit-linear-gradient(#f2f2f2, #f2f2f2);
+  background: linear-gradient(#f2f2f2, #f2f2f2);
+    
+}
 .text-primary {
   color: #fdcc52;
 }
@@ -447,4 +454,17 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+
+.hightlight {
+	color: #F24726;
+	font-weight: bold;
+}
+
+#features .compare, #features .compare .note {
+	padding: 5px;
+}
+
+#features .compare .note {
+	background-color: #CEE741;
 }
