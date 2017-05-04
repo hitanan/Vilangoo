@@ -461,10 +461,10 @@ body {
 	font-weight: bold;
 }
 
-#features .compare, #features .compare .note {
+#features .compare, .note {
 	padding: 5px;
 }
 
-#features .compare .note {
+.note {
 	background-color: #CEE741;
 }
