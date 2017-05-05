@@ -494,3 +494,32 @@ body {
   border-color: black;
   border: 1px solid;
 }
+#features .package-item, #features .package-item img {
+	text-align: center;
+	margin: 0 auto;
+	
+}
+#features .package-item img{
+	width: 100px;
+	height: 100px;
+}
+
+
+#features .package-item .package-img{
+	width: 100px;
+	height: 100px;
+}
+
+#features  .package-item .package1 {
+	background: url('../img/package1.png') no-repeat;
+}
+
+#features  .package-item .package2 {
+	background: url('../img/package1.png') no-repeat -100px 0;
+}
+#features  .package-item .package3 {
+	background: url('../img/package1.png') no-repeat -200px 0;
+}
+#features  .package-item .package4 {
+	background: url('../img/package1.png') no-repeat -300px 0;
+}
