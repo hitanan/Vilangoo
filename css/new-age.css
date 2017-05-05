@@ -65,14 +65,15 @@ p {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
   font-family: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 .navbar-default .navbar-header .navbar-brand {
   font-family: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1px;
   color: #fdcc52;
+  text-transform: uppercase;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
@@ -487,6 +488,7 @@ body {
 	width: 100%;
 	height: 100%;
 }
+
 
 
 .btn-outline-black {
