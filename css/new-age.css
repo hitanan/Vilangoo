@@ -12,7 +12,7 @@
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
 }
 .alt-font {
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -84,7 +84,7 @@ p {
   padding: 8px 10px;
 }
 .navbar-default .nav > li > a {
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 11px;
@@ -429,7 +429,7 @@ footer ul li a.active {
   border-color: #fdcc52;
 }
 .btn {
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
   text-transform: uppercase;
   letter-spacing: 2px;
   border-radius: 300px;
@@ -521,5 +521,9 @@ body {
 	background: url('../img/package1.png') no-repeat -200px 0;
 }
 #features  .package-item .package4 {
-	background: url('../img/package1.png') no-repeat -300px 0;
+	background: url('../img/package1.png') no-repeat -200px 0;
+}
+
+#contact iframe {
+	max-width: 100%;
 }
