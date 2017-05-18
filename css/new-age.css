@@ -529,3 +529,9 @@ body {
 #contact iframe {
 	max-width: 100%;
 }
+
+.vilangoo-img img { margin: 0  auto;}
+#features .advanced {
+	font-size: 18px;
+	list-style-image: url('../img/tick.png');
+}
